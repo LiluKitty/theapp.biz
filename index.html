@@ -1,15 +1,292 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>theapp.biz - This page is under construction</title>
+    <meta name="description" content="TheApp.biz - The app you need? We have it. Discover our collection of innovative iOS applications for productivity and creativity.">
+    <title>TheApp.biz - The App you need? We have it.</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>TheApp.biz</h1>
-        <h2>This page is under construction</h2>
-    </div>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="/" class="logo">
+                <span class="logo-icon">T</span>
+                <span class="logo-text">TheApp<span class="logo-accent">.biz</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    The App you need?<br>
+                    <span class="gradient-text">We have it.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    We craft gorgeous, innovative applications that simplify your everyday life.
+                    From productivity tools to creative solutions, discover what's next.
+                </p>
+                <div class="hero-cta">
+                    <a href="#products" class="btn btn-primary">Explore Our Apps</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">7</span>
+                        <span class="stat-label">Apps</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Live</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Products</h2>
+                <p class="section-subtitle">Discover our collection of carefully crafted applications</p>
+            </div>
+            <div class="products-grid">
+                <!-- Background Remover - Live -->
+                <article class="product-card">
+                    <div class="product-icon-img">
+                        <img src="images/background-remover-icon.png" alt="Background Remover icon">
+                    </div>
+                    <h3 class="product-name">Background Remover</h3>
+                    <p class="product-description">Transform your photos in seconds with Background Remover, the ultimate tool to erase, blur, or pixelate any part of your image exactly the way you want.</p>
+                    <div class="product-badges">
+                        <a href="https://apps.apple.com/app/apple-store/id6754326218?pt=128128292&ct=Website&mt=8" class="store-badge" target="_blank" rel="noopener">
+                            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on App Store">
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Water Eject - Coming Soon -->
+                <article class="product-card coming-soon">
+                    <span class="coming-soon-badge">Coming Soon</span>
+                    <div class="product-icon-img">
+                        <img src="images/water-eject-icon.png" alt="Water Eject icon">
+                    </div>
+                    <h3 class="product-name">Water Eject Free Wave</h3>
+                    <p class="product-description">Clear water from your device speakers with powerful sound waves. Quick, easy, and effective.</p>
+                </article>
+
+                <!-- Coming Soon Placeholder 1 -->
+                <article class="product-card coming-soon placeholder">
+                    <span class="coming-soon-badge">Coming Soon</span>
+                    <p class="product-description">Something exciting is in the works. Stay tuned for our next release.</p>
+                </article>
+
+                <!-- Coming Soon Placeholder 2 -->
+                <article class="product-card coming-soon placeholder">
+                    <span class="coming-soon-badge">Coming Soon</span>
+                    <p class="product-description">Something exciting is in the works. Stay tuned for our next release.</p>
+                </article>
+
+                <!-- Coming Soon Placeholder 3 -->
+                <article class="product-card coming-soon placeholder">
+                    <span class="coming-soon-badge">Coming Soon</span>
+                    <p class="product-description">Something exciting is in the works. Stay tuned for our next release.</p>
+                </article>
+
+                <!-- Coming Soon Placeholder 4 -->
+                <article class="product-card coming-soon placeholder">
+                    <span class="coming-soon-badge">Coming Soon</span>
+                    <p class="product-description">Something exciting is in the works. Stay tuned for our next release.</p>
+                </article>
+
+                <!-- Coming Soon Placeholder 5 -->
+                <article class="product-card coming-soon placeholder">
+                    <span class="coming-soon-badge">Coming Soon</span>
+                    <p class="product-description">Something exciting is in the works. Stay tuned for our next release.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="about-description">
+                        We're a passionate team of developers and designers dedicated to creating apps that truly make a difference.
+                        Founded with the belief that great software should be intuitive, gorgeous, and accessible to everyone.
+                    </p>
+                    <p class="about-description">
+                        Every app we build is crafted with attention to detail, focusing on user experience and performance.
+                        We listen to our users and constantly improve based on their feedback.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Fast & Reliable</h4>
+                                <p>Optimized for performance on all devices</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Privacy First</h4>
+                                <p>Your data stays yours, always</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Made with Love</h4>
+                                <p>Crafted by people who care</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="visual-card">
+                        <div class="visual-emoji">❤️</div>
+                        <span>Designed & Developed<br>by Humans</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="contact-subtitle">Have questions? We'd love to hear from you.</p>
+                <div class="contact-methods">
+                    <a href="mailto:support@theapp.biz" class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <span>support@theapp.biz</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <span class="logo-icon">T</span>
+                        <span class="logo-text">TheApp<span class="logo-accent">.biz</span></span>
+                    </a>
+                    <p class="footer-tagline">Apps made by humans.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="https://apps.apple.com/app/apple-store/id6754326218?pt=128128292&ct=Website&mt=8" target="_blank" rel="noopener">Background Remover</a></li>
+                            <li><a href="#products">Water Eject Free Wave</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TheApp.biz. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenuBtn.classList.toggle('active');
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    navLinks.classList.remove('active');
+                    mobileMenuBtn.classList.remove('active');
+                }
+            });
+        });
+
+        // Header scroll effect
+        const header = document.querySelector('.header');
+        let lastScroll = 0;
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+
+            lastScroll = currentScroll;
+        });
+    </script>
 </body>
-</html> 
+</html>
