@@ -426,48 +426,6 @@ ul {
     opacity: 0.8;
 }
 
-/* Product QR Code - Desktop Only */
-.product-qr {
-    position: absolute;
-    top: 28px;
-    right: 28px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-}
-
-.product-qr img {
-    width: 56px;
-    height: 56px;
-    border-radius: 6px;
-}
-
-.product-qr span {
-    font-size: 0.65rem;
-    color: var(--color-text-muted);
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-}
-
-/* Card with QR code needs relative positioning and 5% larger */
-.product-card.has-qr {
-    position: relative;
-    padding: 34px;
-    min-width: 358px;
-}
-
-.product-card.has-qr .product-icon-img {
-    width: 76px;
-    height: 76px;
-}
-
-.product-card.has-qr .product-qr img {
-    width: 60px;
-    height: 60px;
-}
-
 /* Product Icon Image */
 .product-icon-img {
     width: 72px;
@@ -766,10 +724,6 @@ ul {
 
 /* ===== Responsive Design ===== */
 @media (max-width: 1024px) {
-    .product-qr {
-        display: none;
-    }
-
     .about-content {
         grid-template-columns: 1fr;
         gap: 60px;
@@ -910,16 +864,6 @@ ul {
 
     .product-card {
         padding: 20px;
-    }
-
-    .product-card.has-qr {
-        padding: 20px;
-        min-width: unset;
-    }
-
-    .product-card.has-qr .product-icon-img {
-        width: 60px;
-        height: 60px;
     }
 
     .product-card.placeholder {
