@@ -60,8 +60,9 @@ Website: https://theapp.biz
   - May help push trapped water out of the speaker grill
   - May help loosen dust and lint stuck in the speaker opening
   - Speaker test and sound exploration tool
-  - No account, no sign up, no internet connection required
-  - Zero data collected — fully private and offline
+  - No account, name, email, or sign up required
+  - Core frequency playback works offline; anonymous attribution and analytics are sent over the internet
+  - Privacy: limited anonymous data collected via AppsFlyer (attribution and analytics) and Google Ads (advertising measurement); IDFA only collected with user permission via Apple's ATT prompt; no data linked to user identity
   - Zero setup — open app, max volume, point speaker down, tap
 - Important Disclaimer: Water Eject does not claim to prevent water damage, does not repair hardware damage, and cannot undo harm already done to your device. Always follow Apple's official drying steps for liquid contact.
 - Price: Free to download and use. Core frequency-generator functionality is free. Certain advanced or specific features may be offered as an optional Premium in-app subscription.
@@ -107,7 +108,7 @@ Q: How do I use Water Eject?
 A: Open the app, set your volume to maximum, point the speaker down, tap the button, and let the sound run. No setup, no account, no internet needed.
 
 Q: Does Water Eject collect data?
-A: No. Water Eject collects zero data. There is no account, no sign up, and no internet connection needed.
+A: We do not collect names, emails, contacts, photos, audio, or location, and the App does not require an account. We do collect limited anonymous data through AppsFlyer (install attribution and product analytics) and Google Ads (advertising measurement) — including device model, OS version, app events, and the Apple advertising identifier (IDFA) only when the user grants permission via Apple's App Tracking Transparency prompt. None of this data is linked to user identity. Full details: https://theapp.biz/watereject/privacy.html
 
 Q: Is Water Eject free or paid?
 A: Water Eject is free to download and use. The core frequency-generator functionality is free. Certain advanced or specific features may be offered as an optional Premium in-app subscription. Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period and can be managed in Apple ID Account Settings.
