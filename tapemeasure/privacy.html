@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privacy Policy for Water Eject — the sound frequency generator for iPhone. We collect limited anonymous data through AppsFlyer and Google Ads that is not linked to your identity. No account required.">
+    <meta name="description" content="Privacy Policy for Tape Measure — the AR measuring app for iPhone. We collect limited anonymous data through AppsFlyer and Google Ads that is not linked to your identity. No account required.">
     <meta name="author" content="TheApp.biz">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://theapp.biz/watereject/privacy.html">
-    <title>Privacy Policy - Water Eject | TheApp.biz</title>
+    <link rel="canonical" href="https://theapp.biz/tapemeasure/privacy.html">
+    <title>Privacy Policy - Tape Measure | TheApp.biz</title>
 
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
             </a>
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
-                <li><a href="/watereject/">Water Eject</a></li>
+                <li><a href="/tapemeasure/">Tape Measure</a></li>
                 <li><a href="/#contact">Contact</a></li>
             </ul>
             <button class="mobile-menu-btn" aria-label="Toggle menu">
@@ -40,7 +40,7 @@
         <nav class="breadcrumb container" aria-label="Breadcrumb">
             <a href="/">Home</a>
             <span class="breadcrumb-separator">/</span>
-            <a href="/watereject/">Water Eject</a>
+            <a href="/tapemeasure/">Tape Measure</a>
             <span class="breadcrumb-separator">/</span>
             <span>Privacy Policy</span>
         </nav>
@@ -62,15 +62,15 @@
                 <div class="pp-faq-list" style="max-width:820px;margin:0 auto">
                     <div class="pp-feature-card">
                         <p style="opacity:0.7;margin-bottom:1.5rem"><strong>Effective date:</strong> May 26, 2026</p>
-                        <p>This Privacy Policy describes how Water Eject ("the App", "we", "us", or "our"), operated by The App, Inc., handles information when you use the App. The App does not require an account, name, email, or any sign up. We collect a limited amount of anonymous data through third-party SDKs for product analytics, install attribution, and advertising measurement. <strong>None of this data is linked to your identity.</strong></p>
+                        <p>This Privacy Policy describes how Tape Measure ("the App", "we", "us", or "our"), operated by The App, Inc., handles information when you use the App. The App does not require an account, name, email, or any sign up. We collect a limited amount of anonymous data through third-party SDKs for product analytics, install attribution, and advertising measurement. <strong>None of this data is linked to your identity.</strong></p>
                     </div>
 
                     <div class="pp-feature-card">
                         <h3>Information We Collect</h3>
-                        <p>We do not collect your name, email address, phone number, contacts, photos, audio recordings, location, or any information you enter into the App. We collect the following limited, anonymous data:</p>
+                        <p>We do not collect your name, email address, phone number, contacts, photos, audio recordings, location, or any measurement data you capture inside the App. We collect the following limited, anonymous data:</p>
                         <ul style="margin:0.75rem 0 0 1.25rem;line-height:1.7">
-                            <li><strong>Device &amp; technical data</strong> — device model, operating system version, language, country/region, app version, time zone, coarse network type.</li>
-                            <li><strong>Usage data</strong> — app launches, basic interaction events (for example, "frequency played"), session duration, crash and performance diagnostics.</li>
+                            <li><strong>Device &amp; technical data</strong> — device model, operating system version, language, country/region, app version, time zone, coarse network type, ARKit/LiDAR capability.</li>
+                            <li><strong>Usage data</strong> — app launches, basic interaction events (for example, "measurement started", "tool selected"), session duration, crash and performance diagnostics.</li>
                             <li><strong>Install attribution data</strong> — anonymous identifiers used to measure which marketing campaign or referral brought you to the App.</li>
                             <li><strong>Advertising identifiers</strong> — the Apple Identifier for Advertisers (IDFA), <strong>only if you grant permission</strong> through Apple's App Tracking Transparency (ATT) prompt. If you decline, no IDFA is collected.</li>
                             <li><strong>IP address</strong> — collected briefly for fraud prevention and approximate region attribution, then discarded or truncated by our third-party providers per their policies.</li>
@@ -79,14 +79,24 @@
                     </div>
 
                     <div class="pp-feature-card">
+                        <h3>Camera &amp; AR Data</h3>
+                        <p>Tape Measure requires camera access in order to run augmented-reality measurements. The camera feed is processed locally on your device by Apple's ARKit framework to detect surfaces and compute distances. <strong>We do not record, upload, store, or transmit the camera feed, photos, video, or any captured measurement off your device.</strong> Anything you measure stays on your device.</p>
+                    </div>
+
+                    <div class="pp-feature-card">
                         <h3>How the App Works</h3>
-                        <p>Water Eject is a sound frequency generator that plays tuned audio frequencies through your iPhone speaker. The frequency-playback feature works locally on your device and does not require an internet connection. An internet connection is used in the background to deliver anonymous attribution and analytics events to our service providers; this does not affect playback. We do not record audio and we do not use the microphone.</p>
+                        <p>Tape Measure is an AR measuring app that uses your iPhone camera and Apple's ARKit framework to estimate dimensions, areas, heights, angles, and other measurements. The core measuring tools work locally on your device and do not require an internet connection. An internet connection is used in the background to deliver anonymous attribution and analytics events to our service providers; this does not affect measuring.</p>
                     </div>
 
                     <div class="pp-feature-card">
                         <h3>Permissions</h3>
-                        <p>Water Eject does not request access to your microphone, camera, photos, contacts, location, or any other personal data on your device.</p>
-                        <p>The first time you launch the App, Apple's App Tracking Transparency (ATT) system will show a system prompt asking whether you allow tracking across apps and websites owned by other companies. <strong>You can decline this prompt at any time</strong>, and you can change your choice later in iOS Settings → Privacy &amp; Security → Tracking. If you decline, we do not collect your IDFA.</p>
+                        <p>Tape Measure requests the following device permissions:</p>
+                        <ul style="margin:0.75rem 0 0 1.25rem;line-height:1.7">
+                            <li><strong>Camera</strong> — required for AR measuring. The camera feed is processed locally and is not recorded, stored, or transmitted by us.</li>
+                            <li><strong>Motion &amp; orientation sensors</strong> — used by ARKit to track your device's position in space. No raw sensor data leaves the device.</li>
+                            <li><strong>Photos (optional)</strong> — only requested if you choose to save a screenshot of a measurement to your photo library.</li>
+                        </ul>
+                        <p style="margin-top:0.75rem">The first time you launch the App, Apple's App Tracking Transparency (ATT) system will show a system prompt asking whether you allow tracking across apps and websites owned by other companies. <strong>You can decline this prompt at any time</strong>, and you can change your choice later in iOS Settings → Privacy &amp; Security → Tracking. If you decline, we do not collect your IDFA.</p>
                     </div>
 
                     <div class="pp-feature-card">
@@ -107,6 +117,7 @@
                             <li><strong>Decline tracking.</strong> Decline Apple's ATT prompt, or change your choice anytime in iOS Settings → Privacy &amp; Security → Tracking.</li>
                             <li><strong>Limit ad tracking system-wide.</strong> iOS Settings → Privacy &amp; Security → Apple Advertising lets you disable personalized ads at the system level.</li>
                             <li><strong>Reset your advertising identifier.</strong> iOS Settings → Privacy &amp; Security → Tracking → Reset Advertising Identifier.</li>
+                            <li><strong>Revoke camera permission.</strong> iOS Settings → Tape Measure → Camera. Note that disabling the camera will prevent the App from functioning.</li>
                             <li><strong>Delete the App.</strong> Removing the App from your device stops all future data collection.</li>
                         </ul>
                         <p style="margin-top:0.75rem">If you are located in a region with applicable privacy law (such as the EU/EEA, UK, California, or Brazil), you may also have rights under GDPR, CCPA/CPRA, or LGPD — including the right to request access, deletion, or correction of any data we hold about you. Because our data is not linked to your identity, requests must include enough information for us or our providers to locate the relevant records. Contact <a href="mailto:support@theapp.biz">support@theapp.biz</a> to make a request.</p>
@@ -114,7 +125,7 @@
 
                     <div class="pp-feature-card">
                         <h3>Children's Privacy</h3>
-                        <p>Water Eject is not directed at children under 13 and we do not knowingly collect personal information from children under 13. Because we do not collect names, emails, accounts, or any directly identifying information, the App contains no personally identifiable data tied to any user, including children. If you believe a child has provided information to us in any form, please contact <a href="mailto:support@theapp.biz">support@theapp.biz</a> and we will work with our providers to investigate and remove it.</p>
+                        <p>Tape Measure is not directed at children under 13 and we do not knowingly collect personal information from children under 13. Because we do not collect names, emails, accounts, or any directly identifying information, the App contains no personally identifiable data tied to any user, including children. If you believe a child has provided information to us in any form, please contact <a href="mailto:support@theapp.biz">support@theapp.biz</a> and we will work with our providers to investigate and remove it.</p>
                     </div>
 
                     <div class="pp-feature-card">
@@ -129,7 +140,7 @@
 
                     <div class="pp-feature-card">
                         <h3>Contact Us</h3>
-                        <p>If you have any questions about this Privacy Policy or Water Eject, please contact us at <a href="mailto:support@theapp.biz">support@theapp.biz</a>.</p>
+                        <p>If you have any questions about this Privacy Policy or Tape Measure, please contact us at <a href="mailto:support@theapp.biz">support@theapp.biz</a>.</p>
                     </div>
                 </div>
             </div>
@@ -158,10 +169,10 @@
                         </ul>
                     </div>
                     <div class="footer-column">
-                        <h4>Water Eject</h4>
+                        <h4>Tape Measure</h4>
                         <ul>
-                            <li><a href="/watereject/privacy.html">Privacy Policy</a></li>
-                            <li><a href="/watereject/terms.html">Terms of Use</a></li>
+                            <li><a href="/tapemeasure/privacy.html">Privacy Policy</a></li>
+                            <li><a href="/tapemeasure/terms.html">Terms of Use</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TheApp.biz - The app you need? We have it. Discover our collection of innovative iOS and Mac applications. Download Background Remover for photo editing, Website Blocker for productivity, and Water Eject for clearing your iPhone speaker.">
-    <meta name="keywords" content="iOS apps, Mac apps, Background Remover, photo editing, Website Blocker, block websites, screen time, productivity, Water Eject, sound frequency generator, speaker water removal, app developer, mobile applications, focus app, distraction blocker">
+    <meta name="description" content="TheApp.biz - The app you need? We have it. Discover our collection of innovative iOS and Mac applications. Background Remover for photo editing, Website Blocker for productivity, Water Eject for your iPhone speaker, and Tape Measure for AR measuring.">
+    <meta name="keywords" content="iOS apps, Mac apps, Background Remover, photo editing, Website Blocker, block websites, screen time, productivity, Water Eject, sound frequency generator, speaker water removal, Tape Measure, AR ruler, augmented reality, ar measure, app developer, mobile applications, focus app, distraction blocker">
     <meta name="author" content="TheApp.biz">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://theapp.biz/">
@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://theapp.biz/">
     <meta property="og:title" content="TheApp.biz - The App you need? We have it.">
-    <meta property="og:description" content="Discover our collection of innovative iOS and Mac applications. Download Background Remover, Website Blocker, and Water Eject for free.">
+    <meta property="og:description" content="Discover our collection of innovative iOS and Mac applications. Download Background Remover, Website Blocker, Water Eject, and Tape Measure for free.">
     <meta property="og:image" content="https://theapp.biz/images/og-image.png">
     <meta property="og:site_name" content="TheApp.biz">
 
@@ -22,7 +22,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://theapp.biz/">
     <meta name="twitter:title" content="TheApp.biz - The App you need? We have it.">
-    <meta name="twitter:description" content="Discover our collection of innovative iOS and Mac applications. Download Background Remover, Website Blocker, and Water Eject for free.">
+    <meta name="twitter:description" content="Discover our collection of innovative iOS and Mac applications. Download Background Remover, Website Blocker, Water Eject, and Tape Measure for free.">
     <meta name="twitter:image" content="https://theapp.biz/images/og-image.png">
 
     <!-- Schema.org structured data -->
@@ -103,6 +103,23 @@
                 "downloadUrl": "https://apps.apple.com/app/apple-store/id6773278971",
                 "softwareVersion": "1.0",
                 "author": {"@id": "https://theapp.biz/#organization"}
+            },
+            {
+                "@type": "SoftwareApplication",
+                "@id": "https://theapp.biz/#tape-measure",
+                "name": "Tape Measure",
+                "description": "An AR measuring app for iPhone. Ruler, level, area, height, 3D, angle, TV sizer and more — all powered by augmented reality through your iPhone camera. Free to download.",
+                "applicationCategory": "UtilitiesApplication",
+                "operatingSystem": "iOS",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD",
+                    "description": "Free to use"
+                },
+                "downloadUrl": "https://apps.apple.com/app/apple-store/id6773773783",
+                "softwareVersion": "1.0",
+                "author": {"@id": "https://theapp.biz/#organization"}
             }
         ]
     }
@@ -156,11 +173,11 @@
                         <span class="stat-label">Apps</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">3</span>
+                        <span class="stat-number">4</span>
                         <span class="stat-label">Live</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">3</span>
+                        <span class="stat-number">2</span>
                         <span class="stat-label">Coming Soon</span>
                     </div>
                 </div>
@@ -234,10 +251,22 @@
                     </div>
                 </article>
 
-                <!-- Coming Soon Placeholder 3 -->
-                <article class="product-card coming-soon placeholder">
-                    <span class="coming-soon-badge">Coming Soon</span>
-                    <p class="product-description">Something exciting is in the works. Stay tuned for our next release.</p>
+                <!-- Tape Measure - Live -->
+                <article class="product-card has-qr" onclick="window.location='/tapemeasure/'" style="cursor:pointer">
+                    <div class="product-qr">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=104x104&data=https://apps.apple.com/app/apple-store/id6773773783?pt=128128292%26ct=Website%26mt=8" alt="Scan to download">
+                        <span>Scan</span>
+                    </div>
+                    <div class="product-icon-img">
+                        <img src="images/icon-tapemeasure.png" alt="Tape Measure icon">
+                    </div>
+                    <h3 class="product-name">Tape Measure</h3>
+                    <p class="product-description">An AR measuring app for iPhone. Ruler, level, area, height, 3D, angle, TV sizer and more — all powered by augmented reality through your camera.</p>
+                    <div class="product-badges">
+                        <a href="https://apps.apple.com/app/apple-store/id6773773783?pt=128128292&ct=Website&mt=8" class="store-badge" target="_blank" rel="noopener" onclick="event.stopPropagation()">
+                            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on App Store">
+                        </a>
+                    </div>
                 </article>
 
                 <!-- Coming Soon Placeholder 4 -->
@@ -353,6 +382,7 @@
                             <li><a href="/backgroundremover/">Background Remover</a></li>
                             <li><a href="/websiteblocker/">Website Blocker</a></li>
                             <li><a href="/watereject/">Water Eject</a></li>
+                            <li><a href="/tapemeasure/">Tape Measure</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
